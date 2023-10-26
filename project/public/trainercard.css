@@ -1,0 +1,64 @@
+/* card style */
+
+.card{
+
+transition: all 0.5s;
+
+background: rgb(195,200,236);
+background: linear-gradient(90deg, rgba(195,200,236,1) 0%, rgba(200,241,235,1) 53%, rgba(152,197,224,1) 100%);
+
+}
+.card:hover{
+
+  transform: scale(1.1);
+}
+
+/* btn style */
+
+.btn{
+  position: relative;
+  left: 40px;
+  top: 50px;
+}
+
+
+/* checked stars */
+
+
+.checked {
+  color: orange;
+}
+
+/* footer style */
+
+footer {
+  
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer nav li:last-child {
+  margin-right: 0;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
